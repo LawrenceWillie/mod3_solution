@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(71, 60, 60);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(71, 60, 60);
+}
+
+
+
+.navbar-nav {
+    margin-top: 10px;
+    background-color: rgb(71, 60, 60);
+}
+
+.navbar-nav a {
+    color: #951c49;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(197, 212, 197);
+}
+
+.navbar-nav a:hover {
+    background:  #951c49;
+    
+}
+/*****jumbotron******/
+#jumbotron {
+    width: 100%;
+    height: auto;
+    
+}
+
+#color {
+    background-color: rgb(65, 61, 61);
+
+}
+
+
+
+h1, h3 {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(29, 27, 27);
+}
+
+
+
+/************** Large devices only ************/
+@media (min-width: 1200px) {
+    .navbar-nav {/*******NAV-BAR**********/
+        margin-top: 10px;
+        visibility: hidden;
+    }
+
+}
+
+
+/************** medium devices only ************/
+@media (min-width: 992px) and (max-width : 1199px) {
+    .navbar-nav {/*******NAV-BAR**********/
+        margin-top: 10px;
+        visibility: hidden;
+    }
+
+}
+
+/************** small devices only ************/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {/*******NAV-BAR**********/
+        margin-top: 10px;
+        visibility: hidden;
+    }
+
+
+    /*****colapseble nave*****/
+    .navbar-toggler {
+        visibility: visible;
+    }
+
+
+}
+
+/**************Extra small devices only ************/
+@media (max-width: 767px) {
+
+}
