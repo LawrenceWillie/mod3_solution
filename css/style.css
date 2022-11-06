@@ -33,7 +33,7 @@ body {
 /*****jumbotron******/
 #jumbotron {
     width: 100%;
-    height: auto;
+    height: auto;/* jut in case**/
     
 }
 
